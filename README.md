@@ -84,12 +84,12 @@ pip install torch torchvision sentence-transformers matplotlib seaborn
 Run the notebook:
 Open the .ipynb file in Jupyter or VS Code and run each cell step-by-step.
 
-#📊 Results
+## 📊 Results
 Zero-Shot Accuracy on Unseen Classes: ~15.57%
 
 Indicates that while the model captures some semantic mapping, performance could be improved with more sophisticated mapping (e.g., MLP, contrastive loss, etc.)
 
-#🧠 Possible Improvements
+## 🧠 Possible Improvements
 * Replace linear mapper with a multi-layer neural network.
 
 * Use contrastive or triplet loss instead of MSE.
